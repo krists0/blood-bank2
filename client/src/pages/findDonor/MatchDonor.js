@@ -159,11 +159,7 @@ class MatchDonor extends Component{
 
     };
 
-    // componentDidUpdate(prevState) {
-    //     if(prevState.donors!==this.props.donors)
-    //         this.setState({donors:this.props.donors});
-    //
-    // }
+   
     generatePDF = () => {
         var doc = new jsPDF('p', 'pt');
         
@@ -201,8 +197,7 @@ class MatchDonor extends Component{
                             :
                             <></>
                         }
-                        {/**<DonorsTable donors={this.state.donors} /> */}
-
+                      
                     </Card>
                     
                 </Grid>
@@ -211,8 +206,7 @@ class MatchDonor extends Component{
             <Card className={classes.card} >
 
            
-            {/**<DonorsTable donors={this.state.donors} /> */}
-
+           
             </Card> 
          </div>
 
@@ -240,24 +234,3 @@ export default connect(
     onGetDonors: () => {
         dispatch(getDonors())}})
 )(withStyles(styles)(MatchDonor));
-/** 
-
-{matchDonors.map(donor => {
-    var doc = new jsPDF('p', 'pt');
-        
-        doc.text(20, 20, 'For blood type type'+value)
-
-        doc.setFont('helvetica')
-        doc.setFontType('normal')
-        doc.text(20, 60, 'This is the second title.'+donor)
-        console.log("donors match ="+this.state.dnr_name)
-        doc.setFont('helvetica')
-        doc.setFontType('normal')
-        doc.text(20, 100, 'hjgj')      
-
-        
-        doc.save('demo.pdf')
-} )
-    
-}
-**/
