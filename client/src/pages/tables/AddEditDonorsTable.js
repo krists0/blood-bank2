@@ -1,7 +1,7 @@
 import React from 'react';
 import { Formik, Form } from 'formik';
 import { connect } from 'react-redux';
-//import ReactTooltip from 'react-tooltip';
+
 import * as Yup from 'yup';
 import Modal from '../../components/Modal'
 import {renderInputs} from '../../components/renderInputs';
@@ -91,7 +91,7 @@ const AddEditForm = props => {
                     </Form>
                 )}
             </Formik>
-            {/*<ReactTooltip type="error" effect="solid" place="right" />*/}
+           
         </div>
         </Modal>
     )
