@@ -128,10 +128,7 @@ const columns = React.useMemo(
                     handleClose={() => setOpenModal(false)}
                     columns={columns}
                     />
-                {/*<AddNewD*/}
-                {/*    open={editDonor}*/}
-                {/*    handleClose={() => setEditDonor(false)}*/}
-                {/*/>*/}
+            
                 <Table   columns={columns} data={data} {...props} />
                 
             </div>
