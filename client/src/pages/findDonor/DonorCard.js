@@ -21,8 +21,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 const generatePDF = ( name,lastn,typeb,mail,addres,country) => {
-    {console.log("bane="+name)}
-    {console.log("משצק אטפר םכ ="+typeof(name))}
+ 
     var doc = new jsPDF('p', 'pt');
     doc.setProperties({
         title: 'Blood bank',
