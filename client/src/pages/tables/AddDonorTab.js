@@ -133,7 +133,7 @@ const columns = React.useMemo(
         {
             Header: 'Blood Type',
             accessor: 'dnr_blood_type',
-            //Cell: cell => statuses.find(status => status.value === cell?.cell?.value)?.label || ''
+           
         },
         {
             Header: 'Email',
