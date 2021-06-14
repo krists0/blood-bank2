@@ -1,0 +1,11 @@
+export const GET_DONORS = 'GET_DONORS';
+export const ADD_DONOR = 'ADD_DONOR';
+export const UPDATE_DONOR = 'UPDATE_DONOR';
+export const DELETE_DONOR = 'DELETE_DONOR';
+export const GET_DONATION_REC = 'GET_DONATION_REC';
+export const ADD_DONATION_REC = 'ADD_DONATION_REC';
+export const UPDATE_DONATION_REC = 'ADD_DONATION_REC';
+export const DELETE_DONATION_REC = 'ADD_DONATION_REC';
+export const GET_ERRORS = 'GET_ERRORS';
+export const CLEAR_ERRORS = 'CLEAR_ERRORS';
+export const SET_CURRENT_USER= 'SET_CURRENT_USER'

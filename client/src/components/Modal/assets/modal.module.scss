@@ -1,0 +1,36 @@
+.add_modal {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  fill: #ff8700;
+  top: 20px;
+  left: 20px;
+  width: 24px;
+  height: 24px;
+  z-index: 9999;
+}
+
+.modal_content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 768px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  box-shadow: 0 0 7px 10px rgba(0, 0, 0, 0.1);
+  & > .dialog {
+    margin: 0;
+  }
+}

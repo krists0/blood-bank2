@@ -1,0 +1,102 @@
+
+
+.container {
+ // margin: 0 7px 0;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.13);
+ // border-radius: 2px;
+  background-color: #fff;
+  display: center;
+  //flex-direction: column;
+  padding: 1px;
+  top: 5px;
+  position: relative;
+  width: calc(100% - 200px) !important;
+  min-height: 10vh;
+}
+
+
+
+
+.table {
+  &-container {
+    table {
+      td {
+        width: calc(100% / 5);
+        line-height: 1.43;
+        vertical-align: top;
+        padding: 40px;
+        background-color: #fafafa;
+        font-size: 14px;
+
+        &:nth-child(2n) {
+          background-color: #fff;
+        }
+
+        &:last-child {
+          background-color: #fff;
+        }
+
+        &:nth-child(1) {
+          width: 176px;
+          font-size: 16px;
+        }
+        &:nth-child(2) {
+          width: 176px;
+        }
+        &:nth-child(3) {
+          width: 416px;
+        }
+        &:nth-child(4) {
+          width: 416px;
+        }
+        &:nth-child(5) {
+          width: 100px;
+        }
+
+        img {
+          width: 90px;
+        }
+      }
+    }
+  }
+  &_controls {
+    display: flex;
+    height: 30px;
+
+    svg {
+      width: 25px !important;
+      height: 30px !important;
+      margin-inline-end: 10px;
+      fill: hsl(0, 0%, 50%);
+      //transition: all $textTransition;
+      &:hover {
+        fill: hsl(0, 0%, 10%);
+      }
+      &:active {
+        fill: hsl(0, 0%, 0%);
+        transform: scale(0.95);
+      }
+    }
+  }
+}
+
+
+.addIcon{
+  position: relative;
+  width:35px;
+  height:28px;
+  background: none;
+  border: none;
+
+  //top:120px;
+  //margin-left: 40px;
+  svg{
+    width:35px;
+    height:35px;
+    fill: #2ecc71;
+    cursor:pointer;
+  }
+
+
+
+}
