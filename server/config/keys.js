@@ -2,5 +2,5 @@ module.exports={
 
     mongoURI:'',
 
-    secretOrKey:'mysecretsshhh'
+    secretOrKey:''
 };
